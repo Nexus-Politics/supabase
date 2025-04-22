@@ -123,7 +123,7 @@ services:
       GOTRUE_MAILER_AUTOCONFIRM: ${ENABLE_EMAIL_AUTOCONFIRM}
 
       GOTRUE_MAILER_TEMPLATES_CONFIRMATION: http://template-server/emails/confirmation.html
-      GOTRUE_MAILER_SUBJECTS_CONFIRMATION: "Willkommen bei Nexus Politics"
+      GOTRUE_MAILER_SUBJECTS_CONFIRMATION: "Bestätigen Sie Ihren Account bei Nexus Politics"
       GOTRUE_MAILER_SECURE_EMAIL_CHANGE_ENABLED: "true"
       GOTRUE_SMTP_MAX_FREQUENCY: "1s"
 
